@@ -25,7 +25,11 @@ function search(nums, target){
     }
     
   }
+     return -1;
 }
 
+// Complexity
+// Time: O(log n)
+// Space: O(1)
 
 console.log(search([4,5,6,7,0,1,2], 0));
